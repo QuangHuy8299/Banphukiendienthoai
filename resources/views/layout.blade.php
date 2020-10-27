@@ -392,11 +392,14 @@
   
     <script src="{{asset('public/Frontend/js/jquery.js')}}"></script>
     <script src="{{asset('public/Frontend/js/bootstrap.min.js')}}"></script>
-    <script src="{{asset('public/Frontend/js/jquery.scrollUp.min.js')}}"></script>
+    
     <script src="{{asset('public/Frontend/js/price-range.js')}}"></script>
     <script src="{{asset('public/Frontend/js/jquery.prettyPhoto.js')}}"></script>
     <script src="{{asset('public/Frontend/js/main.js')}}"></script>
 
+    <div class="zalo-chat-widget" data-oaid="3873015475957890633" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="0" data-width="350" data-height="420"></div>
+
+    <script src="https://sp.zalo.me/plugins/sdk.js"></script>
     
 </body>
 </html>
