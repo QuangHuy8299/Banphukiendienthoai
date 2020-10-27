@@ -10,19 +10,12 @@ use Illuminate\Support\Facades\Redirect;
 session_start();
 class AdminController extends Controller
 {
-    public function AuthLogin(){
-        $admin_id = Session::get('admin_id');
-        if($admin_id){
-            return Redirect::to('dashbroad');
-        }else{
-            return Redirect::to('admin')->send();
-        }
-    }
+    
     public function index(){
     	return view('admin_login');
     }
     public function show_dashbroad(){
-        $this->AuthLogin();
+        
     	return view('admin.dashbroad');
     }
     public function dashbroad(Request $request){
